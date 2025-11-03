@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/gamegam/PMMP-PHPMailer
+build-by-default: true
+branches:
+- main
+projects:
+  PMMP-PHPMailer:
+    path: ""
+    model: virion
+    type: library
+...
